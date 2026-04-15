@@ -85,6 +85,8 @@ export interface EvaluationResult {
   emergencyLighting: SystemResult;
   /** Cấp nước chữa cháy ngoài nhà */
   waterSupply: SystemResult;
+  /** Lối thoát nạn & buồng thang thoát nạn */
+  evacuationRoutes: SystemResult;
   /** Ghi chú bổ sung */
   notes: string[];
 }
